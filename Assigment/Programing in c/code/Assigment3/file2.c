@@ -15,6 +15,7 @@ int main()
     switch (choice)
     {
     case 1:
+
         printf("Addition of two Number is: %f\n", a + b);
         break;
     case 2:
@@ -30,4 +31,5 @@ int main()
         printf("wrong choice!\n");
         break;
     }
+    return 0;
 }
